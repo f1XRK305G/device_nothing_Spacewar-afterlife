@@ -25,12 +25,9 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# PixysOS Properties                                                                              TARGET_SUPPORTS_QUICK_TAP := true
+# Some Properties                                                                              TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_OEM_CAMERA := true
-TARGET_INCLUDE_CARRIER_SETTINGS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := afterlife_Spacewar
